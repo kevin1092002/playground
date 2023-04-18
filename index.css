@@ -130,7 +130,7 @@ button:hover{
         display: flex;
         flex-direction: column;
         max-width: 300px;
-        margin: auto 40px;
+        margin: 20px 45px;
     }
     h1{
         font-size: 1.2rem;

@@ -10,7 +10,8 @@ const appSetting={
 
 const app=initializeApp(appSetting)
 const database=getDatabase(app)
-const itemsInDB=ref(database, "items")
+const userDatabase=document.getElementsByTagName("title")[0].id
+const itemsInDB=ref(database, "userDatabase")
 
 
 

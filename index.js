@@ -11,7 +11,7 @@ const appSetting={
 const app=initializeApp(appSetting)
 const database=getDatabase(app)
 const userDatabase=document.getElementsByTagName("title")[0].id
-const itemsInDB=ref(database, "userDatabase")
+const itemsInDB=ref(database, userDatabase)
 
 
 
@@ -69,7 +69,7 @@ function appendList(input){
 
 
     newIte.addEventListener("click", function(){
-        let wantDeleteItem = ref(database,`items/${id}`)
+        let wantDeleteItem = ref(database, userDatabase+`/${id}`)
 
         remove(wantDeleteItem)
     })

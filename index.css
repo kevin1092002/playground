@@ -306,5 +306,8 @@ nav ul li button{
 nav ul li button{
   max-width: 70px;
 }
+ nav ul{
+  padding: 30px;
+}
 }
 

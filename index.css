@@ -225,6 +225,33 @@ a {
   font-weight: bold;
 }
 
+nav{
+  display: flex;
+  flex-direction: column;
+  max-width: 520px;
+  margin: 30px auto;
+}
+nav ul {
+ display: inline;
+ list-style-type: none;
+ margin: 0;
+ padding: 0 ;
+ overflow: hidden;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul li button{
+  max-width: 80px;
+  background-color: orange;
+  padding: 0px;
+
+}
+
 @media (max-width: 500px) {
   .container {
     display: flex;
@@ -265,7 +292,7 @@ a {
   ul li {
     font-size: 20px;
   }
-
+ 
 #homeImage{
     width: 200px;
     height: 200px;
@@ -276,30 +303,8 @@ a {
   font-size: 1.2rem;
   padding-left: 40px;
 }
-}
-nav{
-  display: flex;
-  flex-direction: column;
-  max-width: 520px;
-  margin: 30px auto;
-}
-nav ul {
- display: inline;
- list-style-type: none;
- margin: 0;
- padding: 0 ;
- overflow: hidden;
-}
-
-nav ul li{
-  display: inline-block;
-  padding: 0px;
-  margin: 0px;
-}
-
 nav ul li button{
-  max-width: 80px;
-  background-color: orange;
-  padding: 0px;
-
+  max-width: 70px;
 }
+}
+

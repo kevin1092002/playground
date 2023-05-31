@@ -277,3 +277,29 @@ a {
   padding-left: 40px;
 }
 }
+nav{
+  display: flex;
+  flex-direction: column;
+  max-width: 520px;
+  margin: 30px auto;
+}
+nav ul {
+ display: inline;
+ list-style-type: none;
+ margin: 0;
+ padding: 0 ;
+ overflow: hidden;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul li button{
+  max-width: 80px;
+  background-color: orange;
+  padding: 0px;
+
+}
